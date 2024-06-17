@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @SavageCoder28
+- 👋 Hi, I’m Jayadithya Reddy Seereddy
 - 👀 I’m interested in Coding
 - 🌱 I’m currently learning Javascript
 - 💞️ I’m looking to collaborate on Freelancing
