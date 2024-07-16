@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Jayadithya Reddy Seereddy
 - 👀 I’m interested in Coding
-- 🌱 I’m currently learning Javascript
+- 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on Freelancing
-- 📫 You can reach me on facebook, my username : 
+- 📫 You can reach me on facebook, my username : TwitchAPrime
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I am a foodie
 
