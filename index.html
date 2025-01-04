@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calc">
+        <div id="content">
+            <h1 style="text-align: center;">J Calc</h1>
+            <form>
+                <div id="output">
+                    <input type="text" id='res'>
+                </div>
+                <div class="btn">
+                    <input type="button" value='C' onclick="Clear()" id="clear">
+                    <input type="button" value='←' onclick="Back()" id="backspace">
+                    <input type="button" value='%' onclick="Solve('%')" class="btns">
+                    <input type="button" value='/' onclick="Solve('/')" class="btns">
+                    <input type="button" value='√' onclick="Solve('√')" class="btns">
+                    <br>
+                    <input type="button" value='7' onclick="Solve('7')" class="btns">
+                    <input type="button" value='8' onclick="Solve('8')" class="btns">
+                    <input type="button" value='9' onclick="Solve('9')" class="btns">
+                    <input type="button" value='x' onclick="Solve('*')" class="btns">
+                    <input type="button" value='∛' onclick="Solve('∛')" class="btns">
+                    <br>
+                    <input type="button" value='4' onclick="Solve('4')" class="btns">
+                    <input type="button" value='5' onclick="Solve('5')" class="btns">
+                    <input type="button" value='6' onclick="Solve('6')" class="btns">
+                    <input type="button" value='-' onclick="Solve('-')" class="btns">
+                    <input type="button" value='x²' onclick="Solve('x²')" class="btns">
+                    <br>
+                    <input type="button" value='1' onclick="Solve('1')" class="btns">
+                    <input type="button" value='2' onclick="Solve('2')" class="btns">
+                    <input type="button" value='3' onclick="Solve('3')" class="btns">
+                    <input type="button" value='+' onclick="Solve('+')" class="btns">
+                    <input type="button" value='π' onclick="Solve('π')" class="btns">
+                    <br>
+                    <input type="button" value='00' onclick="Solve('00')" class="btns">
+                    <input type="button" value='0' onclick="Solve('0')" class="btns">
+                    <input type="button" value='.' onclick="Solve('.')" class="btns">
+                    <input type="button" value='=' onclick="Result()" class="btns">
+                    <input type="button" value='|x|' onclick="Solve('|x|')" class="btns">
+                    <br>
+                    <input type="button" value='a/b' onclick="Solve('a/b')" class="btns">
+                    <input type="button" value='sin' onclick="Solve('sin')" class="btns">
+                    <input type="button" value='cos' onclick="Solve('cos')" class="btns">
+                    <input type="button" value='tan' onclick="Solve('tan')" class="btns">
+                    <input type="button" value='x^b' onclick="Solve('x^b')" class="btns">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src='app.js'></script>
+</body>
+
+</html>
